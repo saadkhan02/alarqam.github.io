@@ -1,0 +1,14 @@
+- name: Fajr
+  iqamah: 4:30 AM
+  next_change_date: Aug 8
+  next_change_time: 4:45 AM
+- name: Dhuhr
+  iqamah: 1:15 PM
+- name: Asr
+  iqamah: 5:30 PM
+- name: Maghrib
+  iqamah: 8:05 PM
+- name: Isha
+  iqamah: 10:00 AM
+  next_change_date: Aug 8
+  next_change_time: 9:45 PM

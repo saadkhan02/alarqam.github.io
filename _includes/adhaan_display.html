@@ -1,0 +1,15 @@
+<th class="align-middle">
+  <h4 class="text-muted">
+    {% if salah.name == 'Fajr' %}
+      {{ site.data.adhaan_times.data.timings.Fajr | date: "%-I:%M %p" }}
+    {% elsif salah.name == "Dhuhr" %}
+      {{ site.data.adhaan_times.data.timings.Dhuhr | date: "%-I:%M %p" }}
+    {% elsif salah.name == "Asr" %}
+      {{ site.data.adhaan_times.data.timings.Asr | date: "%-I:%M %p" }}
+    {% elsif salah.name == "Maghrib" %}
+      {{ site.data.adhaan_times.data.timings.Maghrib | date: "%-I:%M %p" }}
+    {% elsif salah.name == "Isha" %}
+      {{ site.data.adhaan_times.data.timings.Isha | date: "%-I:%M %p" }}
+    {% endif %}
+  </h4>
+</th>
