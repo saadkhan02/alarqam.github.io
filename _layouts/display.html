@@ -63,7 +63,11 @@
               {% include adhaan_display.html %}
 
               <th class="align-middle">
+                {% if salah.name == "Maghrib" %}
+                <h4><strong>{{ site.data.adhaan_times.data.timings.Maghrib | date: "%-I:%M %p" }}</strong></h4>
+                {% else %}
                 <h4><strong>{{ salah.iqamah }}</strong></h4>
+                {% endif %}
                 {% if salah.next_change_date %}
                 <h4><strong class="text-danger">{{ salah.next_change_time }}</strong></h4>
                 <h4><strong class="text-danger">{{ salah.next_change_date }}</strong></h4>
