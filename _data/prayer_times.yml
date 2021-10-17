@@ -1,13 +1,9 @@
 - name: Fajr
-  iqamah: 6:00 AM
-  next_change_date: Oct 10
-  next_change_time: 6:15 AM
+  iqamah: 6:15 AM
 - name: Dhuhr
   iqamah: 1:15 PM
 - name: Asr
-  iqamah: 5:00 PM
-  next_change_date: Oct 10
-  next_change_time: 4:00 PM
+  iqamah: 4:00 PM
 - name: Maghrib
   iqamah: 8:05 PM
 - name: Isha
