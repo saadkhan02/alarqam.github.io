@@ -1,5 +1,7 @@
 - name: Fajr
   iqamah: 6:15 AM
+  next_change_time: 6:30 AM
+  next_change_date: Nov 1
 - name: Dhuhr
   iqamah: 1:15 PM
 - name: Asr
