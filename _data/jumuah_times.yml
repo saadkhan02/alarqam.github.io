@@ -1,4 +1,8 @@
 - name: Jumuah I
   adhaan: 1:15 PM
+  next_change_time: 12:30 PM
+  next_change_date: Nov 12
 - name: Jumuah II
   adhaan: 2:00 PM
+  next_change_time: 1:15 PM
+  next_change_date: Nov 12
